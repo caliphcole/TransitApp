@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/fragment_padding_top_bottom"
+        android:paddingTop="@dimen/fragment_padding_top_bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+            android:paddingRight="@dimen/feed_item_padding_left_right">
+            <!--Bus image that shows on every list item feed for the route feed-->
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_info_layout"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lengthoftrip"
+                    android:text = "Route: Approx. Length of trip 2hrs"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/busstopimage"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:src="@drawable/busstop"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="41dp"
+                        android:id="@+id/arrow1"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:src="@drawable/arrow"/>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/busimage1"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:src="@drawable/genbus"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bus1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text = "test route1"
+                        />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="41dp"
+                    android:id="@+id/arrow2"
+                    android:layout_weight="1"
+                    android:src="@drawable/arrow"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/busimage2"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:src="@drawable/genbus"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bus2"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text = "Test route2"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>

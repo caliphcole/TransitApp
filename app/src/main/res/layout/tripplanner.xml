@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+       >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/search_box_margin_top"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/fragment_padding_top_bottom"
+        android:paddingTop="@dimen/fragment_padding_top_bottom"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Origin..."
+            android:layout_marginRight="@dimen/materialedittext_margin_right"
+            android:layout_marginLeft="@dimen/materialedittext_margin_right"
+            android:id="@+id/origin"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:layout_alignParentTop="true" />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_action_cancel"
+            android:id="@+id/cancel1"
+            android:layout_alignRight="@+id/origin"
+            android:layout_alignEnd="@+id/origin"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Current Location"
+            android:id="@+id/location1"
+            android:layout_gravity="right"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+           >
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination..."
+            android:layout_marginRight="@dimen/materialedittext_margin_right"
+            android:layout_marginLeft="@dimen/materialedittext_margin_right"
+            android:id="@+id/destination"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+          />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_action_cancel"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cancel2"
+            android:layout_marginRight="@dimen/materialedittext_margin_right"
+            android:layout_alignParentTop="true"
+            />
+        </RelativeLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Current Location"
+            android:id="@+id/location2"
+            android:layout_gravity="right"
+            android:layout_marginBottom="30dp"
+           />
+
+    </LinearLayout>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/help"
+            fab:fab_colorNormal="@color/green"
+            fab:fab_colorPressed="@color/feed_item_border"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="10dp"
+            fab:fab_title="Help"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

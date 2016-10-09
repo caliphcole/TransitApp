@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/fragment_padding_top_bottom"
+        android:paddingTop="@dimen/fragment_padding_top_bottom"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:orientation="vertical"
+
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent" android:layout_height="match_parent"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/routenoption"
+            android:weightSum="5"
+           >
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bg_parent_rounded_corner_routenumber"
+                android:paddingBottom="@dimen/fragment_padding_top_bottom"
+                android:paddingTop="@dimen/fragment_padding_top_bottom"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="@dimen/fragment_margin"
+                android:layout_marginTop="@dimen/fragment_margin"
+                android:layout_marginBottom="@dimen/fragment_margin"
+                android:orientation="vertical"
+                android:id="@+id/layoutroute"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.04"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/route"
+                    android:text="Test"
+                    android:textSize="30dp"
+                    android:layout_below="@+id/relativeLayout"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/layoutroute"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight= "1"
+                    android:layout_marginTop="5dp"
+                    >
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/week"
+                        android:layout_gravity="end"
+
+                    />
+                </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight= "1"
+                android:layout_marginTop="5dp"
+                >
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/time"
+                    android:layout_gravity="end"
+                   />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight= "1"
+                android:layout_marginTop="5dp"
+               >
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/place"
+                    android:layout_gravity="end"
+                   />
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight= "1"
+                    android:layout_marginTop="5dp"
+                    >
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/deptarrival"
+                        android:layout_gravity="end"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight= "1"
+                    android:layout_marginTop="5dp"
+                    >
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/direction"
+                        android:layout_gravity="end"
+                        />
+                </RelativeLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/list_color_placeholder"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/resultholder"/>
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+

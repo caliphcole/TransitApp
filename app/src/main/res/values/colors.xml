@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="background_color">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="arrival_time">#0a80d1</color>
+    <color name="hint">#990000</color>
+    <color name="quicksearch">#00cc00</color>
+    <color name="help">#D4AF37</color>
+    <color name="route_info">#000</color>
+    <color name="question_color">#000</color>
+    <color name="route_number">#009688</color>
+    <color name="actionbar">#009688</color>
+    <color name="actionbarelement">#ffffff</color>
+
+    <!--Refresh loader-->
+    <color name="black">#000000</color>
+    <color name="red">#f00</color>
+    <color name="green">#009688</color>
+    <color name="blue">#0a80d1</color>
+    <color name="grey">#d3d3d3</color>
+</resources>

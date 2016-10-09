@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/AppTheme_ActionBar</item>
+
+    </style>
+
+    <style name="AppTheme_ActionBar" parent="Theme.AppCompat">
+        <item name="background">@color/actionbar</item>
+        <item name="titleTextStyle">@style/AppTheme_ActionBar_Font</item>
+        <item name="colorControlNormal">@color/actionbarelement</item>
+
+    </style>
+
+    <style name="AppTheme_ActionBar_Font" parent = "android:TextAppearance.Holo.Widget.ActionBar.Title">
+
+        <item name="android:textColor">@color/actionbarelement</item>
+    </style>
+
+    <style name = "list_textview">
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

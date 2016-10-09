@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Hermaeum</string>
+
+    <!--icon and nav options-->
+    <string name="Home">Home</string>
+    <string name="Nearby">Nearby</string>
+    <string name="Route">Route</string>
+    <string name="TripPlanner">Trip Planner</string>
+    <string name="Map">Map</string>
+    <string name="FAQ">FAQ</string>
+    <string name="About">About</string>
+    <string name="TaxiService">Taxi Service</string>
+
+    <!--button names-->
+    <string name="button_name">Search</string>
+
+    <string name="action_search">Search</string>
+
+
+    <!--nav bar names-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--action bar icon names-->
+    <string name="action_settings">Settings</string>
+
+    <!--About description-->
+     <string name="about_body">This android application displays nearby bus timing information and bus routes that JUTC operates.
+                        This application utilizes the GPS built in to your smart phone to pinpoint your
+                        location. The application will then tie you to the nearest bus stop and display a list of the buses arriving
+                        at that bus stop in the order of arrival time.
+    </string>
+
+    <!--FAQ content-->
+    <string-array name="questions">
+        <item>1. What does the Acronym JUTC mean?</item>
+        <item>2. What is the JUTC SMART CARD?</item>
+        <item>3. What is the size and “make up” of the JUTC fleet?</item>
+        <item>4. Who designed the SmartTransit Application? </item>
+        <item>5. How much does the SmartTransit Application cost?  </item>
+        <item>6. Where does the SmartTransit Application work?</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>Jamaica Urban Transit Company</item>
+        <item>This is a “cashless system” of bus fare payment, which JUTC commuters can use
+              for travel within the Kingston Metropolitan Transportation Region (KMTR). The
+              card is reusable and rechargeable and should not be thrown away – similar to a credit card.</item>
+        <item>The fleet size is now approximately 460 buses and including the artic, bi-artic, buses for
+            the handicapped and luxury coaches. The most common make in the fleet is Volvo.</item>
+        <item>The JATransit app was designed by 5 Students from the Department of Computing at the UWI,
+            Mona. Namely: Anthony Scott, Caliph Cole, Percival Reid, Antoinette Todd and Herbert McNeil</item>
+        <item>The JATransit application is completely free to everyone with an Android Smartphone.</item>
+        <item>The JATransit application is intended to work in the areas of Jamaica served by scheduled JUTC bus service.</item>
+    </string-array>
+
+
+    <string-array name="dayoftheweek">
+        <item>Select Day</item>
+        <item>weekday</item>
+        <item>saturday</item>
+        <item>sunday</item>
+    </string-array>
+    <!--data for the time dropdown menu  for the trip planner-->
+
+
+    <!--bus schedule spinner menu-->
+    <string-array name="time">
+        <item>Select Time of Day</item>
+        <item>5:00am - 11:59am</item>
+        <item>12:00pm - 5:59pm</item>
+        <item>6:00pm - 11:55pm </item>
+    </string-array>
+
+    <string-array name="deptarrival">
+        <item>Select Arrive/Depart</item>
+        <item>Arrive</item>
+        <item>Depart</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="@dimen/fragment_margin"
+    android:layout_marginRight="@dimen/fragment_margin"
+
+    android:background="@drawable/bg_parent_rounded_corner"
+    android:paddingBottom="@dimen/fragment_padding_top_bottom"
+    android:paddingTop="@dimen/fragment_padding_top_bottom"
+    android:orientation="vertical"
+
+    >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Origin..."
+                    android:layout_marginRight="@dimen/materialedittext_margin_right"
+                    android:layout_marginLeft="@dimen/materialedittext_margin_right"
+                    android:id="@+id/origin"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_action_cancel"
+                    android:id="@+id/cancel1"
+                    android:layout_alignRight="@+id/origin"
+                    android:layout_alignEnd="@+id/origin"
+                    android:layout_alignParentTop="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Destination..."
+                    android:layout_marginRight="@dimen/materialedittext_margin_right"
+                    android:layout_marginLeft="@dimen/materialedittext_margin_right"
+                    android:id="@+id/destination"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_action_cancel"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/cancel2"
+                    android:layout_marginRight="@dimen/materialedittext_margin_right"
+                    android:layout_alignParentTop="true"
+                    />
+            </RelativeLayout>
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/tripsearch"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Plan Trip"
+                android:background="@color/green"/>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

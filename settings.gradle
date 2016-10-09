@@ -1,0 +1,1 @@
+include ':app', ':librarydialog', ':libraryfloatingbutton', ':MaterialDesign', ':librarytab'

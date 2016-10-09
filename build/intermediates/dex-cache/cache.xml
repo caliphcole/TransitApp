@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-37ee363ad560f2ce905729d629f18d37bd939169.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-09deacf0ad2900d61fdb1fdb45881a9f824e7327.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\libs\PayPalAndroidSDK-2.9.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ec5f3d25ec21b18a0127332e63d90adbb582fb34">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.9.10-3f6d87a412ace3b509d8c9945ba80b2b9afc97c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-192212a9a1e527a6eaada4efa53e768279cba987.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-5c2faca8898e360307cd70c19cae774ef5e532dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-3debbe9c155b3a176c88d9671273187ef384d3af.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-bb94c57344e6088ced596c382cef3319c98e6ba3.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\Hermaeum\librarydialog\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a476bf4cfcc0ee2f319eb032fd2f6fecd61d8279">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-ff8f7bb485e31ec3a2ccc97d19679228a89fe224.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-b31901dcc07eb907f32c73e08c2f91dd982a6409.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-9b67e379d08d1e0572a3d99b2d1a31c4bc6c41f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\Hermaeum\librarytab\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2d59d65f9ce1c9a2a1262089f8193ba2dff910e8">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-4a7f9a10d7a9430900594076b59fbebcd5f76b76.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-1889fd832b42f7bac061b01f5a3ecf0cf3f6d495.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-1c002b092209b835596bc315e2c7d6a86dc1e5f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\volley-ff73b5c92ceb87c1fb7903d8e50bda19327d94d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\Hermaeum\MaterialDesign\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a19384ce1f30c88078e19905e181ff7baca55afa">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-963d55ba982ef76e3a2f868dcd3804a8cb3d431e.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-808486040dac1eaab2e6e1fa3f90c79b80e1af65.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-119fb4071df1882a35701bfbae60cef0aaf3e220.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-19c808273ab4bf7d6c3ef774f578c17b71d18fdb.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-d47b92125783e8dcef4c6c9809336934f3aaec1c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-1d4521aa9df1925ea8b57b364df5e2008325f17c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-13ee2aebfdc10ce85375e93a28ef23ddeb46093b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-6a3332482d2d2b5d35e12d9ca7231f1edc58700f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\Hermaeum\libraryfloatingbutton\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c341c45b68b14fc9a00302cb2a53b1ab28872b50">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-82614977681d5dbf97c7c9fa6f4a1362d583a927.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-70a2b8190d8c7de4f5fb11111e80aa80cdb84d9b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-385e5449d8e9340ad25efa267b42d4f103e35f3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-1e5a793f0a2dbca33d78fc60eb6e81e9b3c40add.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\library-2.4.0-1f660dbb5f1906ab9e843090c6820d028890eec6.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-f7ac85a0d1e0d4f8fe090b00c2ef502182afda71.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-94db093a46f1ac60d00ea77d316e85c9c0fccecd.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-319fe4181be1f9d385f90cc4f7a52b9754132f08.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-fe9299c2de78cb90d194aac233e0bec6d7b4a2c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-967a033a44424dc3291ec2d65249e8108f57a858.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-3a8743cc6fe0d3c9ed76a2587c79a2ceed86dd24.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-de6316b2b1b32024f39f33e031b259304eb6faa7.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-723ab3f8973ec77df8a5839bac022c1563c0143f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\ColeCaliph\Documents\Android\Hermaeum\app\build\intermediates\pre-dexed\debug\classes-3339d2ae022a734abf4258c0aa4cb856f47c70e8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity ="center_horizontal"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/fragment_padding_top_bottom"
+        android:paddingTop="@dimen/fragment_padding_top_bottom"
+
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/feed_item_padding_left_right"
+        android:paddingRight="@dimen/feed_item_padding_left_right" >
+    
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/genbus"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/feed_item_info_layout"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/routelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/feed_item_routenumber_size"
+                android:textColor="@color/route_number"
+                style="@style/list_textview"
+                android:text= "Route #: "/>
+        <TextView
+            android:id="@+id/route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/feed_item_routenumber_size"
+            android:textColor="@color/route_number"
+            style="@style/list_textview"
+            android:layout_toRightOf="@+id/routelabel"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/orglabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/blue"
+                style="@style/list_textview"
+                android:text="Origin:  "/>
+        <TextView
+            android:id="@+id/org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            style="@style/list_textview"
+            android:layout_toRightOf="@+id/orglabel"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/deslabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/blue"
+                style="@style/list_textview"
+                android:text="Destionation:  "/>
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            style="@style/list_textview"
+            android:layout_toRightOf="@+id/deslabel"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/locationlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/blue"
+                style="@style/list_textview"
+                android:text="Cur Location:  "/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_toRightOf="@+id/locationlabel"
+            style="@style/list_textview"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/distancelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/blue"
+                android:text="Approx. Distance:  "
+                style="@style/list_textview"/>
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            style="@style/list_textview"
+            android:layout_toRightOf="@+id/distancelabel"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/apprxtimelabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/arrival_time"
+                android:textSize="15dp"
+                android:text = "Approx. Arrival:  "
+                style="@style/list_textview"/>
+        <TextView
+            android:id="@+id/approxtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/arrival_time"
+            android:textSize="15dp"
+            style="@style/list_textview"
+            android:layout_toRightOf="@+id/apprxtimelabel"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+              android:layout_height="380dp"
+              android:orientation="vertical"
+              android:layout_marginBottom="10dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_alignParentBottom="true"
+    tools:ignore="MergeRootFrame">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        ></fragment>
+
+
+    <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+
+
+
+
+</LinearLayout>
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/nearbusstop"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#10000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:text="Nearest Bus Stop"
+        />
+
+
+</RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

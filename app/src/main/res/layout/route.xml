@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="@dimen/fragment_padding_top_bottom"
+        android:paddingTop="@dimen/fragment_padding_top_bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/feed_item_image_pic_width"
+                android:layout_height="@dimen/feed_item_image_pic_height"
+                android:layout_marginLeft="4px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="4px"
+                android:src="@drawable/genbus"
+                android:layout_gravity="center_vertical">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_info_layout"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/routelabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_routenumber_size"
+                        android:textColor="@color/route_number"
+                        android:text="Route Number: "
+                        style="@style/list_textview"/>
+                    <TextView
+                        android:id="@+id/route"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_routenumber_size"
+                        android:textColor="@color/route_number"
+                        android:layout_toRightOf="@+id/routelabel"
+                        android:text="123"
+                        style="@style/list_textview"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/labelorg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_other_info_size"
+                        android:textColor="@color/blue"
+                        android:text="Origin: "
+                        style="@style/list_textview"/>
+
+                    <TextView
+                        android:id="@+id/org"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_other_info_size"
+                        android:text="originate"
+                        android:layout_toRightOf="@+id/labelorg"
+                        style="@style/list_textview"
+                       />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/labelvia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_other_info_size"
+                        android:textColor="@color/blue"
+                        android:text = "Via:  "
+                        style="@style/list_textview"
+                        />
+                <TextView
+                    android:id="@+id/via"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/feed_item_other_info_size"
+                    android:layout_toRightOf="@+id/labelvia"
+                    android:text="via"
+                    style="@style/list_textview"
+                    />
+                    </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/labeldes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_other_info_size"
+                        android:textColor="@color/blue"
+                        android:text ="Destination:  "
+                        style="@style/list_textview"/>
+                <TextView
+                    android:id="@+id/des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/feed_item_other_info_size"
+                    android:layout_toRightOf="@+id/labeldes"
+                    android:text="destination"
+                    style="@style/list_textview"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/labelroutetype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/feed_item_other_info_size"
+                        android:textColor="@color/blue"
+                        android:text="Route Type:  "
+                        style="@style/list_textview"/>
+                <TextView
+                    android:id="@+id/routetype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/feed_item_other_info_size"
+
+                    android:text ="type"
+                    android:layout_toRightOf="@+id/labelroutetype"
+                    style="@style/list_textview"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

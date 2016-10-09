@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="@dimen/fragment_margin"
+    android:background="@drawable/bg_parent_rounded_corner"
+    android:paddingBottom="@dimen/fragment_padding_top_bottom"
+    android:paddingTop="@dimen/fragment_padding_top_bottom"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/infolayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        >
+        <TextView
+            android:id="@+id/orglayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/feed_item_other_info_size"
+            android:textColor="@color/blue"
+            style="@style/list_textview"
+            android:text="Origin:  "/>
+    <TextView
+        android:id="@+id/org"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/feed_item_other_info_size"
+        android:textColor="@color/route_info"
+        style="@style/list_textview"
+        android:layout_toRightOf="@id/orglayout"/>
+        <TextView
+            android:id="@+id/deslayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/feed_item_other_info_size"
+            android:textColor="@color/blue"
+            style="@style/list_textview"
+            android:text="Destination:  "
+            android:layout_below="@+id/orglayout"
+            android:layout_marginTop="10dp"
+           />
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/feed_item_other_info_size"
+        android:textColor="@color/route_info"
+        style="@style/list_textview"
+        android:layout_toRightOf="@id/deslayout"
+        android:layout_below="@+id/org"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:id="@+id/linearLayout"
+        >
+
+        <com.gc.materialdesign.views.ButtonRectangle
+
+        android:layout_below="@+id/nearbyinfo"
+        android:id="@+id/nearbusstop"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Nearest Bus Stop" />
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/moreinfo"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="More info"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout" />
+</RelativeLayout>

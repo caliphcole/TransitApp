@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <!--MainScreen icon dimension define-->
+    <dimen name="mainscreeniconlabeltextsize">15dp</dimen>
+    <dimen name="mainscreeniconmargin">5dp</dimen>
+    <dimen name="mainscreeniconsize">68dp</dimen>
+    <dimen name="footericonsize">40dp</dimen>
+    <dimen name="footericonlabeltextsize">15dp</dimen>
+
+
+
+    <!--Fragment margin and padding dimen  -->
+    <dimen name ="fragment_margin">10dp</dimen>
+    <dimen name="fragment_padding_top_bottom">20dp</dimen>
+
+    <!--List View -->
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+
+    <!--image of feed dimension-->
+    <dimen name="feed_item_image_pic_width">100dp</dimen>
+    <dimen name="feed_item_image_pic_height">60dp</dimen>
+    <dimen name="feed_item_image_pic_left_top_margin">4dp</dimen>
+    <dimen name="feed_item_image_pic_right_margin">10dp</dimen>
+
+    <dimen name="feed_item_status_pad_left_right">15dp</dimen>
+    <dimen name="feed_item_info_layout">13dip</dimen>
+    <dimen name="feed_item_routenumber_size">22dp</dimen>
+    <dimen name="feed_item_other_info_size">15dp</dimen>
+    <dimen name="feed_item_arrival_time_size">16dp</dimen>
+    <dimen name="feed_item_padding_left_right">15dp</dimen>
+
+    <!--dimen of the about and Faq-->
+    <dimen name="title_layout_bottom_margin">50dp</dimen>
+    <dimen name="question_bottom_margin">5dp</dimen>
+    <dimen name="answer_bottom_margin">30dp</dimen>
+    <dimen name="question_margin_left_right">20dp</dimen>
+    <dimen name = "answer_margin_left">40dp</dimen>
+    <dimen name = "answer_margin_right">20dp</dimen>
+
+    <dimen name = "body_margin_top">40dp</dimen>
+    <dimen name = "body_margin_left_right">20dp</dimen>
+
+    <!--dimen of the search and trip planner search box-->
+    <dimen name="search_box_margin_top">60dp</dimen>
+    <dimen name ="materialedittext_margin_right">20dp</dimen>
+    <dimen name = "materialedittext_icon_padding">0dp</dimen>
+    <dimen name = "button_width">180dp</dimen>
+
+</resources>
